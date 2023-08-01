@@ -1,4 +1,5 @@
-from moviepy.editor import *
+# from moviepy.editor import *
+from moviepy.editor import sys, ImageClip, concatenate_videoclips
 
 def create_zoom_video(images, output_file, zoom_factor=0.05, duration_per_image=1):
     '''It takes a list of input image files, zooms them in progressively to create a clip'''
