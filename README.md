@@ -1,6 +1,6 @@
 # Zoom-in-video
 
-A script to make a quick video using a sequence of images. It takes a list of input image files, zooms them in progressively, and combines them to create a zoom-in animation. The resulting animation is saved as a video file specified by the output_file parameter.
+A script to make a quick video using a sequence of images. It takes a list of input image files, zooms them in progressively, and combines them to create a zoom-in animation. The resulting animation is saved as a video file specified by the **output_file** parameter.
 
 ## in detail
 
