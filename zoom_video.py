@@ -13,9 +13,6 @@ def create_zoom_video(images, output_file, zoom_factor=0.05, duration_per_image=
         zoom_values = [1.0, zoom_factor]
 
         # Apply the zoom-in effect using the 'resize' method
-        # clip = clip.resize(lambda t: zoom_values[min(int(t * len(zoom_values) / clip.duration), len(zoom_values) - 1)])
-        
-        # clip = clip.resize(lambda t: 1 + 0.04 * t)  # Zoom-in effect  cdsd
         clip = clip.resize(lambda t: zoom_values[0] + len(zoom_values) + t)
         clips.append(clip)
 
