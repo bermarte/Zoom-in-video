@@ -1,4 +1,4 @@
-"""Module providingFunction printing python version."""
+"""Module providing Function to concatenate and zoom-in a sequence of images."""
 from moviepy.editor import sys, ImageClip, concatenate_videoclips
 
 def create_zoom_video(images, output_file, zoom_factor=0.05, duration_per_image=1):
