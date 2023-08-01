@@ -2,6 +2,10 @@
 
 A script to make a quick video using a sequence of images. It takes a list of input image files, zooms them in progressively, and combines them to create a zoom-in animation. The resulting animation is saved as a video file specified by the **output_file** parameter.
 
+
+https://github.com/bermarte/Zoom-in-video/assets/979362/d2a39442-fd79-4462-a0cc-4a118aff0c09
+
+
 ## in detail
 
 - Import necessary modules:
