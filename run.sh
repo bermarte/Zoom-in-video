@@ -1,0 +1,1 @@
+python3 zoom_video.py 1.png 2.png 3.png test3.mp4
