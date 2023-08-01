@@ -9,7 +9,6 @@ def create_zoom_video(images, output_file, zoom_factor=0.05, duration_per_image=
     for _i, image in enumerate(images):
         # Load the image as a VideoClip
         clip = ImageClip(image)
-
         # Set the duration for the video clip
         clip = clip.set_duration(duration_per_image)
         # Apply the zoom-in effect using the 'resize' method
@@ -22,7 +21,7 @@ def create_zoom_video(images, output_file, zoom_factor=0.05, duration_per_image=
 def main():
     '''The main function'''
     if len(sys.argv) < 3:
-        print("Usage: python image_zoom.py input_file1 [input_file2 ...] output_video.mp4")
+        print("Usage: python3 zoom_video.py 1.png 2.png 3.png test3.mp4")
         sys.exit(1)
 
     input_files = sys.argv[1:-1]
