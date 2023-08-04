@@ -6,7 +6,7 @@ Install Python on OSX: `brew install python`
 
 Install moviepy: `pip3 install moviepy`
 
-Usage: `python3 zoom_video.py clip.mp44`
+Usage: `python3 zoom_video.py clip.mp4`
 or
 `./run.sh`
 
